@@ -1,5 +1,6 @@
-One binary class divided in edible=e and poisonous=p (with the latter one also containing mushrooms of unknown edibility).
-Twenty remaining variables (n: nominal, m: metrical)
+# DATA SET
+One binary class divided in edible=e and poisonous=p.
+Twenty remaining variables (n: catigorical, m: numerical)
 1. cap-diameter (m): float number in cm
 2. cap-shape (n): bell=b, conical=c, convex=x, flat=f,
 sunken=s, spherical=p, others=o
@@ -29,3 +30,9 @@ large=l, pendant=p, sheathing=s, zone=z, scaly=y, movable=m, none=f, unknown=?
 19. habitat (n): grasses=g, leaves=l, meadows=m, paths=p, heaths=h,
 urban=u, waste=w, woods=d
 20. season (n): spring=s, summer=u, autumn=a, winter=w
+
+# ENVIRONMENT
+
+'numpy': "1.26.4", 'matplotlib': "3.9.2",'sklearn': "1.5.1", 
+'pandas': "2.2.2",'xgboost': "2.1.1", 'shap': "0.45.1", 
+'plotly': "5.23.0"
